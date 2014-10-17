@@ -1,0 +1,4 @@
+codeweek-ws
+===========
+
+Workshop examples
