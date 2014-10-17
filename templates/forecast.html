@@ -1,0 +1,12 @@
+<html>
+<head>
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<body>
+<h1> <font size="18">{{ average }}</font> </h1> 
+<h2>{{ timezone }}</h2>
+{% for d in c_data %}
+  <p> {{ d['temperature'] }} </p>
+{% endfor %}
+</bode>
+</html>
